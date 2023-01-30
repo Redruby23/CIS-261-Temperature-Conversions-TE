@@ -9,7 +9,7 @@ def to_fahrenheit(celsius):
 # to main function is used to test the other functions
 
 
-if _name_ == "_main_":
+if _name_ == "_main_": 
     for temp in range(0, 212, 40):
         print(temp, "fahrenheit =", round(to_celsius(temp), 2), "celsius")
          
